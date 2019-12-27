@@ -16,7 +16,7 @@ import glob # to get file path
 
 
 filepath=glob.glob('./images/*')
-
+filepath=glob.glob("/mnt/c/Users/LoTing/Desktop/OCR/images/*")
 
 
 # In[22]:
@@ -37,7 +37,7 @@ for file in filepath:
 # In[26]:
 
 
-f = open('./text/output.txt',"w")
+f = open('/mnt/c/Users/LoTing/Desktop/OCR/text/output.txt',"w")
 print(text)
 f.write(text)
 f.close()
